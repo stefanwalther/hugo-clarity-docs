@@ -1,0 +1,59 @@
+<DOCTYPE html>
+  <!--[if lt IE 7 ]><html class="no-js ie6"><![endif]-->
+  <!--[if IE 7 ]><html class="no-js ie7"><![endif]-->
+  <!--[if IE 8 ]><html class="no-js ie8"><![endif]-->
+  <!--[if IE 9 ]><html class="no-js ie9"><![endif]-->
+  <!--[if (gt IE 9)|!(IE)]><!--><html class="no-js"> <!--<![endif]-->
+
+  <head>
+    <title>{{ .Title }}</title>
+
+    <!-- CLARITY STYLES -->
+    <link rel="stylesheet" href="{{ "clarity/clarity-ui.css" | absURL }}">
+    <!--CLARITY ICONS STYLE-->
+
+    <!--CLARITY ICONS DEPENDENCY: CUSTOM ELEMENTS POLYFILL-->
+    <script src="{{ "clarity/custom-elements.min.js" | absURL }}"></script>
+
+    <!--CLARITY ICONS API & ALL ICON SETS-->
+    <script src="{{ "clarity/clarity-icons.min.js" | absURL }}"></script>
+
+  </head>
+  <body>
+
+  <!-- main-container -->
+  <div class="main-container">
+
+    <!-- app-level-alert -->
+    <div class="alert alert-app-level alert-info">
+      <div class="alert-items">
+        <div class="alert-item static">
+          <!-- Todo: Either delete the icon or make it configurable -->
+          <div class="alert-icon-wrapper" style="display: none;">
+            <clr-icon class="alert-icon" shape="exclamation-circle"></clr-icon>
+          </div>
+          <div class="alert-text">
+            The entire project (including this documentation) is WIP.
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- // app-level-alert -->
+
+    <header class="header header-6">
+      <div class="branding">
+        <a class="logo-and-title" routerlink="/" ng-reflect-router-link="/" href="/">
+          <!-- Todo: Either make it configurable or delete it -->
+          <!--<clr-icon shape="data-cluster" size="24" style="color:#fff;"></clr-icon>-->
+          <span class="title">sammler.io</span>
+        </a>
+      </div>
+    </header>
+
+    <nav class="subnav" style="display:none;">
+      ...
+    </nav>
+
+    <div class="content-container">
+      <div class="content-area">
+
