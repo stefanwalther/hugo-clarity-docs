@@ -1,0 +1,9 @@
+{
+  "name": "hugo-clarity-docs",
+  "version": "0.1.0",
+  "devDependencies": {
+    "@webcomponents/custom-elements": "^1.0.0",
+    "clarity-icons": "^0.10.13",
+    "clarity-ui": "^0.10.13"
+  }
+}

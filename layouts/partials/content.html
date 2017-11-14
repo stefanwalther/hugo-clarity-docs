@@ -1,0 +1,9 @@
+  <div class="content-area">
+
+  </div> <!--!content-area -->
+
+  {{ if gt (len .Site.Menus.main) 0 }}
+  {{ partial "nav" . }}
+  {{ end }}
+
+</div>
