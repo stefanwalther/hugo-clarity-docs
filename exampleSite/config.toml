@@ -1,0 +1,9 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "hugo-clarity-docs"
+theme = "hugo-clarity-docs"
+preserveTaxonomyNames = true
+paginate = 3
+disqusShortname = "shortname"
+googleAnalytics = ""
+pluralizeListTitles = false

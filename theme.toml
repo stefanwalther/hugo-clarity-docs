@@ -1,0 +1,12 @@
+name = "Clarity Docs"
+license = "CC-BY-4"
+licenselink = "https://github.com/stefanwalther/hugo-clarity-docs/blob/master/LICENSE.md"
+description = "A Hugo theme to create documentaton sites based on Clarity."
+homepage = "https://github.com/stefanwalther/hugo-clarity-docs"
+tags = ["clarity", "documentation", "docs", "google analytics", "responsive"]
+features = []
+min_version = 0.20
+
+[author]
+  name = "Stefan Walther"
+  homepage = "https://github.com/stefanwalther"
